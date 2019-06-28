@@ -1,4 +1,4 @@
-FROM jupyter/base-notebook:abdb27a6dfbb
+FROM jupyter/base-notebook:38f518466042
 
 ARG NB_USER=jovyan
 ARG NB_UID=1000
