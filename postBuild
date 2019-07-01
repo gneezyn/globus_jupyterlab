@@ -1,5 +1,8 @@
 #!/bin/bash
 
+ARG JUPYTER_LAB=yes
+ENV JUPYTER_ENABLE_LAB ${JUPYTER_LAB}
+
 npm install
 npm run build
 jupyter labextension install .
