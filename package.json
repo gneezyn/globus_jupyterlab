@@ -28,6 +28,7 @@
     },
     "scripts": {
         "build": "tsc",
+        "extension": "npm run-script extension_script.sh",
         "test": "mocha -r ts-node/register -r ignore-styles -r jsdom-global/register src/**/*.spec.ts",
         "clean": "rimraf lib",
         "watch": "tsc -w"
