@@ -27,8 +27,7 @@
         "url": "https://github.com/gneezyn/jupyterlab_globus.git"
     },
     "scripts": {
-        "build": "tsc && npm run extension",
-        "extension": "npm run-script extension_script.sh",
+        "build": "tsc",
         "test": "mocha -r ts-node/register -r ignore-styles -r jsdom-global/register src/**/*.spec.ts",
         "clean": "rimraf lib",
         "watch": "tsc -w"
